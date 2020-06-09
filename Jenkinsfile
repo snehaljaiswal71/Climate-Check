@@ -5,10 +5,6 @@
     }
     agent any
 
-    tools {
-        maven 'maven_3.0.5'
-    }
-
     stages {
         stage('Code Compilation') {
             steps {
