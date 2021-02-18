@@ -8,7 +8,7 @@
     stages {
         stage('Code Compilation') {
             steps {
-                bat 'mvn clean install'
+                sh 'mvn clean package'
             }
         }
 
